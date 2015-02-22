@@ -1,8 +1,6 @@
 
-## COURSE PROJECT - Getting and Cleaning Data Course
-
 ##CODE BOOK 
-
+##COURSE PROJECT - Getting and Cleaning Data Course
 
 # Introduction
 
@@ -18,7 +16,7 @@ Similarly, the acceleration signal was then separated into body and gravity acce
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). 
 Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
 
-All variable descripted bellow has been grouped by subject and activity.
+**All variable described has been grouped by subject and activity.**
 
 # Variable description
 
