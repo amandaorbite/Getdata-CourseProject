@@ -1,10 +1,10 @@
 
-### COURSE PROJECT - Getting and Cleaning Data Course
+## COURSE PROJECT - Getting and Cleaning Data Course
 
-###CODE BOOK 
+##CODE BOOK 
 
 
-## Instroduction
+# Instroduction
 
 This data set is the result of an average of the grouped by subject and activity data for the data from a Human Activity Recognition Using Smartphones experience.
 The experiements have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
@@ -20,12 +20,12 @@ Also the magnitude of these three-dimensional signals were calculated using the 
 
 All variable descripted bellow has been grouped by subject and activity.
 
-## Variable description
+# Variable description
 
-subject
+** subject
 	Identification of monitored person volunteers who performed any of six activities wearing a smartphone (Samsung Galaxy S II) on the waist.
 
-activity
+** activity
 	Name of monitored Activity. Could be:	
 		WALKING
 		WALKING_UPSTAIRS
@@ -34,16 +34,16 @@ activity
 		STANDING
 		LAYING
 
-tBodyAcc-mean()-X
+** tBodyAcc-mean()-X
 	Mean of X axial time signal of the Body Acc feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.	
 
-tBodyAcc-mean()-Y
+** tBodyAcc-mean()-Y
 	Mean of Y axial time signal of the Body Acc feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.	
 		
-tBodyAcc-mean()-Z	
+** tBodyAcc-mean()-Z	
 	Mean of Z axial time signal of the Body Acc feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.	
 	
-tBodyAcc-std()-X
+** tBodyAcc-std()-X
 	Standard deviation of X axial time signal of the Body Acc feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.	
 
 tBodyAcc-std()-Y
