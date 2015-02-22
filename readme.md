@@ -33,19 +33,22 @@ This script wil work with files:
 		one to another, to result in oly one data set of Test informations. 				
 		- Next step is to read X_test file, and give correct names to variables. The name for variables are names 
 		in "features" data frame, that was created above.
-		- Next step is to read Y_test file and give name "activity" for the column and reat subject_test file and give name "subject" to the column.
+		- Next step is to read Y_test file and give name "activity" for the column and reat 
+		  subject_test file and give name "subject" to the column.
 		- After that, attach 3 files with cbind function and create one data frame called "test"		
 	- Now, create a Train data frame 		
 		- Script will make same steps above, but with Train files. At end, will be created a data frame called "train"	
-	- Now, we have one data frame with Test data and another with Train data. Script wil join this two data frame. Its not necessary to merge then, because test and train files do not work with same subject.
+	- Now, we have one data frame with Test data and another with Train data. Script wil join this two data frame. 
+	  Its not necessary to merge then, because test and train files do not work with same subject.
 	- Name of this data frame is "testTrain"
 
-**Exercise 2 - Extracts only the measurements on the mean and standard deviation for each measurement. **
+**Exercise 2 - Extracts only the measurements on the mean and standard deviation for each measurement.**
 
-	- Using names function, script will select only columns that have "mean()" and "std()" string on name and create a new data frame called "meanStd" with this columns. 
+	- Using names function, script will select only columns that have "mean()" and "std()" string 
+	  on name and create a new data frame called "meanStd" with this columns. 
 	- After that, add column subject and activity to this new data frame. This is to give possibility to identify the measurement.
 	
-**Exercise 3 - Uses descriptive activity names to name the activities in the data set. **
+**Exercise 3 - Uses descriptive activity names to name the activities in the data set.**
 
 	- Read Activity file (activity_labels.txt) into "activity" data frame, to take the name of activity labels
 	- Use "meanStd" data set, join to "activity" data set and assign to "meanStd" data set.
@@ -57,7 +60,8 @@ This script wil work with files:
 
 **Exercise 5 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.**
 
-	- Using aggregate function on meanStd data set to group and average values. The result is assigned to the new data set called "aggdata".
+	- Using aggregate function on meanStd data set to group and average values. 
+	  The result is assigned to the new data set called "aggdata".
 	- After that, put descriptive names on columns.
 
 
