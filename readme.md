@@ -25,6 +25,7 @@ This script wil work with files:
 	Script will not use Inertial Signal data.
 	
 **Exercise 1 - Merges the training and the test sets to create one data set.**
+
 	- Read Features file (features.txt) into "features" data frame, to take the name of features for naming columns from X files. 	
 	- This is doing firts, because will be used in next steps	
 	- First, create a Test data frame 	
@@ -40,18 +41,22 @@ This script wil work with files:
 	- Name of this data frame is "testTrain"
 
 **Exercise 2 - Extracts only the measurements on the mean and standard deviation for each measurement. **
+
 	- Using names function, script will select only columns that have "mean()" and "std()" string on name and create a new data frame called "meanStd" with this columns. 
 	- After that, add column subject and activity to this new data frame. This is to give possibility to identify the measurement.
 	
 **Exercise 3 - Uses descriptive activity names to name the activities in the data set. **
+
 	- Read Activity file (activity_labels.txt) into "activity" data frame, to take the name of activity labels
 	- Use "meanStd" data set, join to "activity" data set and assign to "meanStd" data set.
 	- Now "meanStd" has a column called activity_label with the name os activities
 
 **Exercise 4 - Appropriately labels the data set with descriptive variable names.**
+
 	- This was alredy done during exercise 1. The "meanStd" data set has descriptive variable names.
 
 **Exercise 5 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.**
+
 	- Using aggregate function on meanStd data set to group and average values. The result is assigned to the new data set called "aggdata".
 	- After that, put descriptive names on columns.
 
