@@ -40,9 +40,11 @@ This script wil work with files:
 		  subject_test file and give name "subject" to the column.
 		- After that, attach 3 files with cbind function and create one data frame called "test"		
 	- Now, create a Train data frame 		
-		- Script will make same steps above, but with Train files. At end, will be created a data frame called "train"	
-	- Now, we have one data frame with Test data and another with Train data. Script wil join this two data frame. 
-	  Its not necessary to merge then, because test and train files do not work with same subject.
+		- Script will make same steps above, but with Train files. At end, will be created a 
+		data frame called "train"	
+	- Now, we have one data frame with Test data and another with Train data. 
+	Script wil join this two data frame. Its not necessary to merge then, because test and 
+	train files do not work with same subject.
 	- Name of this data frame is "testTrain"
 
 **Exercise 2 - Extracts only the measurements on the mean and standard deviation for each measurement.**
