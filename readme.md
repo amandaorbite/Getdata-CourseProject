@@ -18,7 +18,8 @@ This script wil work with files:
 	- 'test/subject_test.txt': Code that identifies subject for each measure.
 	This 3 files are complementary. They have same line length.
 
-	- 'features.txt': List of names of features that were used, in the same order that columns from X files (x_train and x_test)
+	- 'features.txt': List of names of features that were used, in the same 
+	order that columns from X files (x_train and x_test)
 	- 'activity_labels.txt': List names of activities where used on the experience, to link with 
 	activity code on Y files (y_train and y_test).
 
@@ -26,10 +27,12 @@ This script wil work with files:
 	
 **Exercise 1 - Merges the training and the test sets to create one data set.**
 
-	- Read Features file (features.txt) into "features" data frame, to take the name of features for naming columns from X files. 	
+	- Read Features file (features.txt) into "features" data frame, to take the name 
+	of features for naming columns from X files. 	
 	- This is doing firts, because will be used in next steps	
 	- First, create a Test data frame 	
-		- All three test files (X_test.txt, Y_test.txt, subject_train) have same quantity of lines. So, this 3 data could be attached 
+		- All three test files (X_test.txt, Y_test.txt, subject_train) have same quantity of lines. 
+		So, this 3 data could be attached 
 		one to another, to result in oly one data set of Test informations. 				
 		- Next step is to read X_test file, and give correct names to variables. The name for variables are names 
 		in "features" data frame, that was created above.
@@ -46,7 +49,8 @@ This script wil work with files:
 
 	- Using names function, script will select only columns that have "mean()" and "std()" string 
 	  on name and create a new data frame called "meanStd" with this columns. 
-	- After that, add column subject and activity to this new data frame. This is to give possibility to identify the measurement.
+	- After that, add column subject and activity to this new data frame. This is to 
+	give possibility to identify the measurement.
 	
 **Exercise 3 - Uses descriptive activity names to name the activities in the data set.**
 
@@ -58,7 +62,8 @@ This script wil work with files:
 
 	- This was alredy done during exercise 1. The "meanStd" data set has descriptive variable names.
 
-**Exercise 5 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.**
+**Exercise 5 - From the data set in step 4, creates a second, independent tidy data set with 
+the average of each variable for each activity and each subject.**
 
 	- Using aggregate function on meanStd data set to group and average values. 
 	  The result is assigned to the new data set called "aggdata".
