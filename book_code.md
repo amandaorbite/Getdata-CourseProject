@@ -29,210 +29,273 @@ subject
 activity
 
 	Name of monitored Activity. Could be:	
-		WALKING
-		WALKING_UPSTAIRS
-		WALKING_DOWNSTAIRS
-		SITTING
-		STANDING
-		LAYING
+		- WALKING
+		- WALKING_UPSTAIRS
+		- WALKING_DOWNSTAIRS
+		- SITTING
+		- STANDING
+		- LAYING
 
 tBodyAcc-mean()-X
+
 	Mean of X axial time signal of the Body Acc feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.	
 
 tBodyAcc-mean()-Y
+
 	Mean of Y axial time signal of the Body Acc feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.	
 		
 tBodyAcc-mean()-Z	
+
 	Mean of Z axial time signal of the Body Acc feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.	
 	
 tBodyAcc-std()-X
+
 	Standard deviation of X axial time signal of the Body Acc feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.	
 
 tBodyAcc-std()-Y
+
 	Standard deviation of Y axial time signal of the Body Acc feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
 
 tBodyAcc-std()-Z	
+
 	Standard deviation of Z axial time signal of the Body Acc feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
 
 tGravityAcc-mean()-X
+
 	Mean of X axial time signal of the Gravity Acc feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.	
 
 tGravityAcc-mean()-Y
+
 	Mean of Y axial time signal of the Gravity Acc feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.	
 
 tGravityAcc-mean()-Z
+
 	Mean of Z axial time signal of the Gravity Acc feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.	
 
 tGravityAcc-std()-X
+
 	Standard deviation of X axial time signal of the Gravity Acc feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.	
 
 tGravityAcc-std()-Y
+
 	Standard deviation of Y axial time signal of the Gravity Acc feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.	
 	
 tGravityAcc-std()-Z
+
 	Standard deviation of Z axial time signal of the Gravity Acc feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.	
 
 tBodyAccJerk-mean()-X
+
 	Mean of X axial derived Jerk time signal of the Body Acc feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.		
 
 tBodyAccJerk-mean()-Y
+
 	Mean of Y axial derived Jerk time signal of the Body Acc feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.	
 
 tBodyAccJerk-mean()-Z
+
 	Mean of Z axial derived Jerk time signal of the Body Acc feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.	
 	
 tBodyAccJerk-std()-X
+
 	Standard deviation of X axial derived Jerk time signal of the Body Acc feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.	
 	
 tBodyAccJerk-std()-Y
+
 	Standard deviation of Y axial derived Jerk time signal of the Body Acc feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.	
 
 tBodyAccJerk-std()-Z
+
 	Standard deviation of Z axial derived Jerk time signal of the Body Acc feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.	
 
 tBodyGyro-mean()-X
+
 	Mean of X axial derived Jerk time signal of the Body Gyro feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.		
 
 tBodyGyro-mean()-Y
+
 	Mean of Y axial derived Jerk time signal of the Body Gyro feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.		
 
 tBodyGyro-mean()-Z
+
 	Mean of Z axial derived Jerk time signal of the Body Gyro feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.		
 
 tBodyGyro-std()-X
+
 	Standard deviation of X axial derived Jerk time signal of the Body Gyro feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.		
 	
 tBodyGyro-std()-Y
+
 	Standard deviation of Y axial derived Jerk time signal of the Body Gyro feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.		
 	
 tBodyGyro-std()-Z
 	Standard deviation of Z axial derived Jerk time signal of the Body Gyro feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.		
 	
 tBodyGyroJerk-mean()-X
+
 	Mean of X axial derived Jerk time signal of the Body Gyro feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.		
 	
 tBodyGyroJerk-mean()-Y
+
 	Mean of Y axial derived Jerk time signal of the Body Gyro feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.		
 	
 tBodyGyroJerk-mean()-Z
+
 	Mean of Z axial derived Jerk time signal of the Body Gyro feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.		
 	
 tBodyGyroJerk-std()-X
+
 	Standard deviation of X axial derived Jerk time signal of the Body Gyro feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.		
 
 tBodyGyroJerk-std()-Y
+
 	Standard deviation of X axial derived Jerk time signal of the Body Gyro feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.		
 	
 tBodyGyroJerk-std()-Z
+
 	Standard deviation of X axial derived Jerk time signal of the Body Gyro feature, that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.		
 
 tBodyAccMag-mean()
+
 	Mean of the magnitude of time signal of Body Acc feature.
 	
 tBodyAccMag-std()
+
 	Standard deviation of the magnitude of time signal of Body Acc feature.
 
 tGravityAccMag-mean()
+
 	Mean of the magnitude of time signal of Gravity Acc feature.
 
 tGravityAccMag-std()
+
 	Standard deviation of the magnitude of time signal of Gravity Acc feature.
 
 tBodyAccJerkMag-mean()
+
 	Mean of the magnitude of derived Jerk time signal of Body Acc feature.
 	
 tBodyAccJerkMag-std()
+
 	Standard Deviation of the magnitude of derived Jerk time signal of Body Acc feature.
 	
 tBodyGyroMag-mean()
+
 	Mean of the magnitude of time signal of Gyro Acc feature.
 	
 tBodyGyroMag-std()
+
 	Standard deviation of the magnitude of time signal of Gyro Acc feature.
 	
 tBodyGyroJerkMag-mean()
+
 	Mean of the magnitude of derived Jerk time signal of Gyro Acc feature.
 
-tBodyGyroJerkMag-std()	
+tBodyGyroJerkMag-std()
+	
 	Standard deviation of the magnitude of derived Jerk time signal of Gyro Acc feature.
 
 fBodyAcc-mean()-X	
+
 	Mean of X the axial time signal of the Body Acc feature, after apply Fast Fourier Transform (FFT)
 
 fBodyAcc-mean()-Y
+
 	Mean of Y the axial time signal of the Body Acc feature, after apply Fast Fourier Transform (FFT)
 	
 fBodyAcc-mean()-Z
+
 	Mean of Z the axial time signal of the Body Acc feature, after apply Fast Fourier Transform (FFT)
 
 fBodyAcc-std()-X
+
 	Standard deviation of X the axial time signal of the Body Acc feature, after apply Fast Fourier Transform (FFT)
 
 fBodyAcc-std()-Y
+
 	Standard deviation of Y the axial time signal of the Body Acc feature, after apply Fast Fourier Transform (FFT)
 
 fBodyAcc-std()-Z
+
 	Standard deviation of Z the axial time signal of the Body Acc feature, after apply Fast Fourier Transform (FFT)
 
 fBodyAccJerk-mean()-X
+
 	Mean of X the axial derived Jerk time signal of the Body Acc feature, after apply Fast Fourier Transform (FFT)
 	
 fBodyAccJerk-mean()-Y
+
 	Mean of Y the axial derived Jerk time signal of the Body Acc feature, after apply Fast Fourier Transform (FFT)
 	
 fBodyAccJerk-mean()-Z
+
 	Mean of Z the axial derived Jerk time signal of the Body Acc feature, after apply Fast Fourier Transform (FFT)
 	
 fBodyAccJerk-std()-X
+
 	Standard deviation of X the axial derived Jerk time signal of the Body Acc feature, after apply Fast Fourier Transform (FFT)
 	
 fBodyAccJerk-std()-Y
+
 	Standard deviation of Y the axial derived Jerk time signal of the Body Acc feature, after apply Fast Fourier Transform (FFT)
 	
 fBodyAccJerk-std()-Z
+
 	Standard deviation of Z the axial derived Jerk time signal of the Body Acc feature, after apply Fast Fourier Transform (FFT)
 
 fBodyGyro-mean()-X
+
 	Mean of X the axial time signal of the Body Gyro feature, after apply Fast Fourier Transform (FFT)
 	
 fBodyGyro-mean()-Y
+
 	Mean of Y the axial time signal of the Body Gyro feature, after apply Fast Fourier Transform (FFT)
 	
 fBodyGyro-mean()-Z
+
 	Mean of Z the axial time signal of the Body Gyro feature, after apply Fast Fourier Transform (FFT)	
 	
 fBodyGyro-std()-X
+
 	Standard deviation of X the axial time signal of the Body Gyro feature, after apply Fast Fourier Transform (FFT)
 	
 fBodyGyro-std()-Y
+
 	Standard deviation of Y the axial time signal of the Body Gyro feature, after apply Fast Fourier Transform (FFT)
 	
 fBodyGyro-std()-Z
+
 	Standard deviation of Z the axial time signal of the Body Gyro feature, after apply Fast Fourier Transform (FFT)
 
 fBodyAccMag-mean()
+
 	Mean of the magnitude of time signal of Body Acc feature, after apply Fast Fourier Transform (FFT)	
 	
 fBodyAccMag-std()
+
 	Standard deviation of the magnitude of time signal of Body Acc feature, after apply Fast Fourier Transform (FFT)	
 	
 fBodyBodyAccJerkMag-mean()
+
 	Mean of the magnitude of derived Jerk time signal of Body Acc feature, after apply Fast Fourier Transform (FFT)	
 	
 fBodyBodyAccJerkMag-std()
+
 	Standard deviation of the magnitude of derived Jerk time signal of Body Acc feature, after apply Fast Fourier Transform (FFT)	
 	
 fBodyBodyGyroMag-mean()
+
 	Mean of the magnitude of time signal of Body Gyro feature, after apply Fast Fourier Transform (FFT)	
 	
 fBodyBodyGyroMag-std()
+
 	Standard deviation of the magnitude of time signal of Body Gyro feature, after apply Fast Fourier Transform (FFT)	
 
 fBodyBodyGyroJerkMag-mean()
+
 	Mean of the magnitude of derived Jerk time signal of Body Gyro feature, after apply Fast Fourier Transform (FFT)	
 	
 fBodyBodyGyroJerkMag-std()
+
 	Standard deviation of the magnitude of derived Jerk time signal of Body Gyro feature, after apply Fast Fourier Transform (FFT)	
 
-activity_label
-	Original activity information
